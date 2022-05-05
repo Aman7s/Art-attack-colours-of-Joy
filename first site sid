@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- <style>
+      .primarycol{
+        backgroundcolor:yellowgreen;
+      }
+    </style> -->
+
+    <title>Art Attack colours of joy</title>
+  </head>
+  <body>
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXX Header  XXXXXXXXXXXXXXXXXXXXXXX -->
+    <header id="nav bar">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images_sid_site/art and craft logo.jpg"
+              height="30"
+              alt="Art Attack"
+              class="d-inline-block align-text-top"
+            />
+            Art Attack
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <ul class="navbar-nav ms-auto">
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#signupModal"
+              >
+                Contact Us
+              </button>
+            </ul>
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXX  main  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    <main class="primarycol bg-dark text-white">
+      <div class="banner">
+        <section id="banner">
+          <img
+            src="/images_sid_site/art & craft banner .jpg"
+            class="img-fluid"
+            alt="banner"
+          />
+        </section>
+      </div>
+      <!-- XXXXXXXXXXXXXXXXXXXXXXXXX  services  XXXXXXXXXXXXXXXXXXX -->
+      <section id="services">
+        
+        <div class="album py-5  ">
+          <div class="container ">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3  ">
+              <!-- 1 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src="/images_sid_site/kala mela craft work.jpg"
+                    alt=""
+                  />
+                  <div class="card-body bg-dark " >
+                    <p class="card-text">
+                      Kala Mela organised by college.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src="/images_sid_site/buddha sculpture.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-body bg-dark">
+                    <p class="card-text">
+                      Mahatma Buddh Sculpture
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src="/images_sid_site/ramayan wall painting.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-body bg-dark">
+                    <p class="card-text">
+                     Madhubani Wall Painting 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src="/images_sid_site/stage decor.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-body bg-dark">
+                    <p class="card-text">
+                      Stage Decoration
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src="/images_sid_site/ganeshji sulpture.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-body bg-dark">
+                    <p class="card-text">
+                      God Ganesh wall Sculpture
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 6 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src="/images_sid_site/buddha wall painting.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-body bg-dark">
+                    <p class="card-text">
+                      Mahatma Buddh wall painting
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX about us XXXXXXXXXXXXXXXXXXXXX -->
+      <hr>
+      <section id="about">
+        <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-4">
+            <h3 class="featurette-heading text-white">Siddhant Srivastav 
+              <!-- <span class="text-muted"></span> -->
+            </h3>
+            <p class="lead text-white">CEO  Art Attack Colour of joy </p>
+          </div>
+          <div class="col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 400x400" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    
+          </div>
+        </div>
+</div>
+      </section>
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX CONTCT US XXXXXXXXXXXXXXXXX -->
+            <hr><hr>
+        <section id="contact" class="contact">
+<!-- 
+          <div class="container aos-init aos-animate" data-aos="fade-up">
+    
+            <header class="section-header text-white">
+              <h2>Contact</h2>
+              <p>Contact us</p>
+            </header>
+    
+            <div class="row gy-4">
+                  <div class="col-md-6 text-white">
+                    <div class="info-box">
+                      <h3>Email Us</h3>      
+                      <p><a href="mailto:coloursofjoyartattack@gmail.com">coloursofjoyartattack@gmail.com</a><br></p>
+                    </div>
+                  </div>
+            </div>
+    
+          </div> -->
+          <header class="section-header text-center">
+            <h2>Contact</h2>
+            <p>Contact us</p>
+          </header>
+    
+          <div class="row mb-2 text-center">
+            <div class="col-md-6 themed-grid-col ">
+              <h3>Call Us</h3>
+              <p>91-8299382025</p>
+              
+            </div>
+            <div class="col-md-6 themed-grid-col ">
+              <h3>Email Us</h3>
+              <p><a href="mailto:coloursofjoyartattack@gmail.com">coloursofjoyartattack@gmail.com</a>
+
+            </div>
+            <!-- <div class="col-md-4 themed-grid-col">
+              <h3>Call Us</h3>
+              <p>91-8299382025</p>
+            </div> -->
+          </div>
+        <hr>
+          <div class="row mb-2 text-center">
+            <div class="col-md-6 themed-grid-col ">
+              <h3>Noida Office</h3>
+              <p>F-block 
+                Sector - 51
+                Noida
+              </p>
+              
+            </div>
+            <div class="col-md-6 themed-grid-col ">
+              <h3>Varanasi Office</h3>
+              <p>
+                Rahul Nagar Colony
+                Pandeypur
+                Varanasi
+              </p>
+            </div>
+        </section>
+      
+
+    </main>
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX FOOTER  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 bg-dark">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-muted">© 2021 Art Attack Colours Of Joy</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24" ><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi"  width="24" height="24">/ic<use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+ 
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
